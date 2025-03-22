@@ -21,7 +21,7 @@ A Python-based voice command assistant that uses OpenAI's Whisper for speech rec
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/voice-command-assistant.git
+   [git clone https://github.com/kellyre/auto_start.git
    cd voice-command-assistant
    ```
 
@@ -39,20 +39,6 @@ A Python-based voice command assistant that uses OpenAI's Whisper for speech rec
    pip install -r requirements.txt
    ```
 
-4. Install PyAudio (if not included in requirements.txt):
-   ```
-   # On Windows
-   pip install pipwin
-   pipwin install pyaudio
-   
-   # On macOS
-   brew install portaudio
-   pip install pyaudio
-   
-   # On Linux
-   sudo apt-get install python3-pyaudio
-   ```
-
 ## Usage
 
 Run the application:
@@ -65,7 +51,6 @@ The application will start listening for voice commands. Speak clearly into your
 ### Available Commands
 
 - "Open [application name]" - Opens the specified application
-- "Search for [query]" - Searches the web for the specified query
 - "Cancel" - Cancels the current command (when a skill is active)
 
 ## Adding New Skills
