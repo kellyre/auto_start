@@ -22,7 +22,7 @@ A Python-based voice command assistant that uses OpenAI's Whisper for speech rec
 1. Clone this repository:
    ```
    git clone https://github.com/kellyre/auto_start.git
-   cd voice-command-assistant
+   cd auto_start
    ```
 
 2. Create and activate a virtual environment:
