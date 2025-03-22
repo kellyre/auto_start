@@ -1,4 +1,4 @@
-# Voice Command Assistant
+# Auto Start
 
 A Python-based voice command assistant that uses OpenAI's Whisper for speech recognition and provides an extensible framework for voice-activated skills.
 
