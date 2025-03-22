@@ -1,0 +1,60 @@
+[
+  {
+    "type": "launch",
+    "name": "notepad",
+    "executable": "notepad",
+    "description": "Opens Windows Notepad",
+    "keywords": ["notepad", "text", "editor", "note"]
+  },
+  {
+    "type": "launch",
+    "name": "file_explorer",
+    "executable": "explorer",
+    "arguments": ["%USERPROFILE%"],
+    "description": "Opens Windows File Explorer at user's home directory",
+    "keywords": ["explorer", "file", "folder", "documents", "browse"]
+  },
+  {
+    "type": "launch",
+    "name": "calculator",
+    "executable": "calc",
+    "description": "Opens Windows Calculator",
+    "keywords": ["calculator", "calc", "math"]
+  },
+  {
+    "type": "chrome",
+    "name": "github",
+    "url": "https://github.com",
+    "description": "Opens GitHub in Chrome browser",
+    "keywords": ["github", "git", "code", "repository"]
+  },
+  {
+    "type": "chrome",
+    "name": "google",
+    "url": "https://www.google.com",
+    "description": "Opens Google search in Chrome browser",
+    "keywords": ["google", "search", "web"]
+  },
+  {
+    "type": "chrome",
+    "name": "youtube",
+    "url": "https://www.youtube.com",
+    "description": "Opens YouTube in Chrome browser",
+    "keywords": ["youtube", "video", "watch"]
+  },
+  {
+    "type": "chrome",
+    "name": "gmail",
+    "url": "https://mail.google.com",
+    "description": "Opens Gmail in Chrome browser",
+    "keywords": ["gmail", "email", "mail"]
+  },
+  {
+    "type": "chrome",
+    "name": "calendar",
+    "url": "https://calendar.google.com",
+    "description": "Opens Google Calendar in Chrome browser",
+    "keywords": ["calendar", "schedule", "meetings"]
+  }
+]
+

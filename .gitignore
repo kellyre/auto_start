@@ -1,0 +1,42 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Local development settings
+.env
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project-specific files
+settings.json
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Whisper model files
+*.pt
+
+# Audio recordings
+recordings/
+*.wav
+*.mp3
+
+# Settings files
+user_settings.json
